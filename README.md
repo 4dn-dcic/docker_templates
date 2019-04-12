@@ -3,7 +3,7 @@ These docker images are for providing a consistent environment for developing an
 
 ## Currently available images
 * `4dndcic/ubuntu16.4-r3.5:v1` : Works for Rpairix development/test
-
+* `4dndcic/ubuntu16.4-miniconda-python37:v1` : Works for conda installation test for Pairix
 
 ## To use an image:
 ```
