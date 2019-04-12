@@ -23,6 +23,9 @@ RUN apt-get update -y && apt-get install -y \
     && wget https://bootstrap.pypa.io/get-pip.py \
     && python3.5 get-pip.py
 
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
+
 # supporting UTF-8
 ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
