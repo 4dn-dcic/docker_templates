@@ -1,7 +1,7 @@
 # docker_templates
 These docker images are for providing a consistent environment for developing and testing software programs at the 4DN DCIC.
 
-# Currently available images
+## Currently available images
 * `4dndcic/ubuntu16.4-r3.5:v1` : Works for Rpairix development/test
 
 ## To build and push an image:
