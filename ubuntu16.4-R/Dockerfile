@@ -24,7 +24,8 @@ RUN apt-get update -y && apt-get install -y \
     r-base \
     r-base-dev
 
-RUN R -e 'install.packages("devtools", repos="http://cran.us.r-project.org")' \ # devtools 
+RUN R -e 'install.packages("devtools", repos="http://cran.us.r-project.org")'
+RUN R -e 'install.packages("roxygen2", repos="http://cran.us.r-project.org")'
 
 # default command
 CMD ["bash"]
