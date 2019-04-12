@@ -14,7 +14,8 @@ RUN apt-get update -y && apt-get install -y \
     vim \
     wget \
     zlib1g-dev \
-    liblz4-tool
+    liblz4-tool \
+    libxml2-dev
 
 # installing R & dependencies for pairsqc
 # r-base, r-base-dev for R, libcurl4-openssl-dev, libssl-dev for devtools
