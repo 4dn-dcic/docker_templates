@@ -2,6 +2,7 @@
 These docker images are for providing a consistent environment for developing and testing software programs at the 4DN DCIC.
 
 ## Currently available images
+* `4dndcic/ubuntu16.04plus:v1` : Ubuntu plus utils like wget, less, bzip2, etc installed
 * `4dndcic/ubuntu16.04-r3.5:v1` : Works for Rpairix development/test
 * `4dndcic/ubuntu16.04-miniconda-python36:v1` : works for conda installation test for snakemake
 * `4dndcic/ubuntu16.04-miniconda-python37:v1` : Works for conda installation test for Pairix
