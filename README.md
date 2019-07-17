@@ -9,6 +9,18 @@ These docker images are for providing a consistent environment for developing an
 * `4dndcic/ubuntu16.04-python35-pip19:v1` : Works for pypairix test
 * `4dndcic/ubuntu16.04-python27-pip19:v1`
 * `4dndcic/ubuntu16.04-python36-pip19:v1` : works for tibanna test
+* `4dndcic/ubuntu16.04-miniconda-python36-docker:v1` : docker inside docker (e.g. test for cwl)
+  * To use docker inside docker, run it with `privileged`
+
+  ```
+  docker run -it --privileged 4dndcic/ubuntu16.04-miniconda-python36-docker:v1
+  ```
+  Then, inside the container, start docker daemon.
+  ```
+  service docker start
+  ```
+
+
 
 ## To use an image:
 ```
